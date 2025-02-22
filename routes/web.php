@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
+    print "Charge Back";
+    print "Nepal";
     return view('welcome');
 });
